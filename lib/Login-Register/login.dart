@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:my_app/home.dart';
+import 'package:my_app/Login-Register/home.dart';
 import 'package:my_app/index.dart';
 
 class Login_page extends StatefulWidget {
@@ -23,7 +23,7 @@ class _Login_pageState extends State<Login_page> {
           builder: (BuildContext context) {
             return IconButton(
               color: Colors.grey,
-              icon: const Icon(Icons.arrow_back),
+              icon: const Icon(Icons.navigate_before),
               onPressed: () {
                 Navigator.of(context).pushReplacement(MaterialPageRoute(
                   builder: (context) {
