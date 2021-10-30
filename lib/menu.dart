@@ -13,7 +13,7 @@ class Menu_page extends StatelessWidget {
           Container(
             width: double.infinity,
             padding: EdgeInsets.all(20),
-            color: Colors.red[300],
+            color: Colors.pink[300],
             child: Center(
               child: Column(
                 children: <Widget>[

@@ -31,7 +31,7 @@ Widget Custom({required String name, singer, img, detail, onTap}) {
               ),
               Text(
                 singer,
-                style: TextStyle(color: Colors.white, fontSize: 14.0),
+                style: TextStyle(color: Colors.black, fontSize: 14.0),
               ),
               SizedBox(
                 height: 5.0,

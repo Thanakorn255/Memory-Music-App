@@ -36,7 +36,7 @@ class _Home_pageState extends State<Home_page> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(0, 0, 0, 20),
                   child: SizedBox(
-                    child: (Text('Memory Song App',
+                    child: (Text('Memory Music App',
                         style: TextStyle(fontSize: 30))),
                   ),
                 ),
@@ -51,6 +51,8 @@ class _Home_pageState extends State<Home_page> {
                       },
                       icon: Icon(Icons.login),
                       style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(
+                              Colors.pink.shade500),
                           shape: MaterialStateProperty.all(
                               RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(50)))),
@@ -71,9 +73,12 @@ class _Home_pageState extends State<Home_page> {
                       },
                       icon: Icon(Icons.add),
                       style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(
+                              Colors.pink.shade200),
                           shape: MaterialStateProperty.all(
-                              RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(50)))),
+                            RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(50)),
+                          )),
                       label: Text(
                         'Register',
                         style: TextStyle(fontSize: 15),

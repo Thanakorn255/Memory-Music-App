@@ -108,9 +108,9 @@ class _Index_pageState extends State<Index_page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red[300],
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.red[300],
+        backgroundColor: Colors.pink[300],
         elevation: 0,
         title: Padding(
           padding: const EdgeInsets.fromLTRB(40, 0, 0, 0),
