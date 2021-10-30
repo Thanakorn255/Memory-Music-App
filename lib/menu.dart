@@ -13,7 +13,7 @@ class Menu_page extends StatelessWidget {
           Container(
             width: double.infinity,
             padding: EdgeInsets.all(20),
-            color: Theme.of(context).primaryColor,
+            color: Colors.red[300],
             child: Center(
               child: Column(
                 children: <Widget>[
@@ -33,7 +33,7 @@ class Menu_page extends StatelessWidget {
                     style: TextStyle(fontSize: 20, color: Colors.white),
                   ),
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(0, 7, 0, 0),
+                    padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
                     child: Text(
                       '63010255@kmitl.ac.th',
                       style: TextStyle(color: Colors.white),
