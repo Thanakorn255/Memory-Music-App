@@ -12,10 +12,11 @@ Widget Custom({required String name, singer, img, detail, onTap}) {
             width: 70.0,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(16.0),
-                image: DecorationImage(image: NetworkImage(img))),
+                image: DecorationImage(
+                    image: NetworkImage(img), fit: BoxFit.cover)),
           ),
           SizedBox(
-            width: 10.0,
+            width: 30.0,
           ),
           Column(
             children: [
@@ -38,7 +39,7 @@ Widget Custom({required String name, singer, img, detail, onTap}) {
               ),
               Text(
                 detail,
-                style: TextStyle(color: Colors.yellow, fontSize: 14.0),
+                style: TextStyle(color: Colors.grey, fontSize: 14.0),
               )
             ],
           )

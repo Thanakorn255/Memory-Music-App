@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/index1.dart';
 
 import 'Login-Register/home.dart';
+import 'index2.dart';
+import 'index3.dart';
 
 class Menu_page extends StatelessWidget {
   const Menu_page({Key? key}) : super(key: key);
@@ -48,10 +51,52 @@ class Menu_page extends StatelessWidget {
             ),
           ),
           ListTile(
+            leading: Icon(Icons.music_note),
+            title: Text(
+              'Thai Music',
+              style: TextStyle(fontSize: 16),
+            ),
+            onTap: () {
+              Navigator.of(context).pushReplacement(MaterialPageRoute(
+                builder: (context) {
+                  return Index_page();
+                },
+              ));
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.my_library_music),
+            title: Text(
+              'International music',
+              style: TextStyle(fontSize: 16),
+            ),
+            onTap: () {
+              Navigator.of(context).pushReplacement(MaterialPageRoute(
+                builder: (context) {
+                  return Index2_page();
+                },
+              ));
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.queue_music),
+            title: Text(
+              'HipHop music',
+              style: TextStyle(fontSize: 16),
+            ),
+            onTap: () {
+              Navigator.of(context).pushReplacement(MaterialPageRoute(
+                builder: (context) {
+                  return Index3_page();
+                },
+              ));
+            },
+          ),
+          ListTile(
             leading: Icon(Icons.arrow_back),
             title: Text(
               'Logout',
-              style: TextStyle(fontSize: 18),
+              style: TextStyle(fontSize: 16),
             ),
             onTap: () {
               Navigator.of(context).pushReplacement(MaterialPageRoute(
@@ -60,7 +105,7 @@ class Menu_page extends StatelessWidget {
                 },
               ));
             },
-          )
+          ),
         ],
       ),
     );
