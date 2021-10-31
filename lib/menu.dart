@@ -4,6 +4,7 @@ import 'package:my_app/index1.dart';
 import 'Login-Register/home.dart';
 import 'index2.dart';
 import 'index3.dart';
+import 'index4.dart';
 
 class Menu_page extends StatelessWidget {
   const Menu_page({Key? key}) : super(key: key);
@@ -51,9 +52,9 @@ class Menu_page extends StatelessWidget {
             ),
           ),
           ListTile(
-            leading: Icon(Icons.music_note),
+            leading: Icon(Icons.my_library_music),
             title: Text(
-              'Thai Music',
+              'Top Thai Music',
               style: TextStyle(fontSize: 16),
             ),
             onTap: () {
@@ -67,7 +68,7 @@ class Menu_page extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.my_library_music),
             title: Text(
-              'International music',
+              'Top International Music',
               style: TextStyle(fontSize: 16),
             ),
             onTap: () {
@@ -79,15 +80,29 @@ class Menu_page extends StatelessWidget {
             },
           ),
           ListTile(
-            leading: Icon(Icons.queue_music),
+            leading: Icon(Icons.my_library_music),
             title: Text(
-              'HipHop music',
+              'Top HipHop Music',
               style: TextStyle(fontSize: 16),
             ),
             onTap: () {
               Navigator.of(context).pushReplacement(MaterialPageRoute(
                 builder: (context) {
                   return Index3_page();
+                },
+              ));
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.my_library_music),
+            title: Text(
+              'Top Pop Thai Music',
+              style: TextStyle(fontSize: 16),
+            ),
+            onTap: () {
+              Navigator.of(context).pushReplacement(MaterialPageRoute(
+                builder: (context) {
+                  return Index4_page();
                 },
               ));
             },

@@ -3,83 +3,83 @@ import 'package:flutter/material.dart';
 import 'Components/list_title.dart';
 import 'menu.dart';
 
-class Index3_page extends StatefulWidget {
-  const Index3_page({Key? key}) : super(key: key);
+class Index4_page extends StatefulWidget {
+  const Index4_page({Key? key}) : super(key: key);
 
   @override
-  _Index3_pageState createState() => _Index3_pageState();
+  _Index4_pageState createState() => _Index4_pageState();
 }
 
-class _Index3_pageState extends State<Index3_page> {
+class _Index4_pageState extends State<Index4_page> {
   List MusicList = [
     {
-      'name': "WAP",
-      'singer': "Cardi B",
+      'name': "เข้าฝัน",
+      'singer': "แสตมป์ อภิวัชร์",
       'img':
-          'https://s.isanook.com/sr/0/rp/rc/w0h0/ya0xacm1w0/aHR0cDovL2pvb3gtY21zLWltYWdlLTEyNTEzMTYxNjEuZmlsZS5teXFjbG91ZC5jb20vMjAyMS8wOS8yNy9iOWVmODYzYS0xZmI4LTQzYWItODEwZi0xMzM1MTQ2OWZiMzUuanBnLzEwMDA=.jpg',
+          'https://cms.dmpcdn.com/musicarticle/2020/12/30/9d883950-4a7d-11eb-9b6d-3fdf37c2e48e_original.jpg',
       'detail': 'Poppular'
     },
     {
-      'name': 'Super Bass',
-      'singer': 'Nicki Minaj',
+      'name': 'คั่นกู',
+      'singer': 'ไบร์ท วชิรวิชญ์',
       'img':
-          'https://image.bestreview.asia/wp-content/uploads/2021/03/Super-Bass.jpg',
+          'https://cms.dmpcdn.com/musicarticle/2020/12/30/9d7dd910-4a7d-11eb-89e4-35f1a97d3869_original.jpg',
       'detail': 'Poppular'
     },
     {
-      'name': 'ROCKSTAR',
-      'singer': 'DaBaby',
+      'name': 'กล่องสุ่ม',
+      'singer': 'ZOM MARIE',
       'img':
-          'https://image.bestreview.asia/wp-content/uploads/2021/04/DaBaby.jpg',
+          'https://cms.dmpcdn.com/musicarticle/2020/12/30/9d3389a0-4a7d-11eb-9b6d-3fdf37c2e48e_original.jpg',
       'detail': 'Poppular'
     },
     {
-      'name': 'Savage Remix',
-      'singer': 'Megan Thee Stallion',
+      'name': 'ฝนตกไหม',
+      'singer': 'วง three man down',
       'img':
-          'https://image.bestreview.asia/wp-content/uploads/2021/04/Megan-Thee-Stallion.jpg',
+          'https://cms.dmpcdn.com/musicarticle/2020/12/30/9d1700f0-4a7d-11eb-9b6d-3fdf37c2e48e_original.jpg',
       'detail': 'Poppular'
     },
     {
-      'name': 'The Box',
-      'singer': 'Roddy Ricch',
+      'name': 'หมอก',
+      'singer': 'Colorpitch',
       'img':
-          'https://image.bestreview.asia/wp-content/uploads/2021/04/The-Box.jpg',
+          'https://cms.dmpcdn.com/musicarticle/2020/12/30/9c9ceef0-4a7d-11eb-89e4-35f1a97d3869_original.jpg',
       'detail': 'Poppular'
     },
     {
-      'name': 'Lil Baby',
-      'singer': 'We Paid',
+      'name': 'ยิ่งใกล้ยิ่งไม่รู้จัก',
+      'singer': 'ว่าน ธนกฤต',
       'img':
-          'https://image.bestreview.asia/wp-content/uploads/2021/04/We-Paid-.jpg',
+          'https://cms.dmpcdn.com/musicarticle/2020/12/30/9c3839b0-4a7d-11eb-89e4-35f1a97d3869_original.jpg',
       'detail': 'Poppular'
     },
     {
-      'name': 'Lose Yourself',
-      'singer': 'Eminem',
+      'name': 'คิด(แต่ไม่)ถึง',
+      'singer': 'Tilly Birds',
       'img':
-          'https://image.bestreview.asia/wp-content/uploads/2021/04/lose-yourself.jpg',
+          'https://cms.dmpcdn.com/musicarticle/2020/12/30/9c3860c0-4a7d-11eb-9b6d-3fdf37c2e48e_original.jpg',
       'detail': 'Poppular'
     },
     {
-      'name': 'Muwop',
-      'singer': 'Mulatto',
+      'name': 'รักให้ตาย',
+      'singer': 'วง KLEAR',
       'img':
-          'https://image.bestreview.asia/wp-content/uploads/2021/04/Mulatto.jpg',
+          'https://cms.dmpcdn.com/musicarticle/2020/12/30/9bdfb970-4a7d-11eb-9b6d-3fdf37c2e48e_original.jpg',
       'detail': 'Poppular'
     },
     {
-      'name': 'Pussy Talk',
-      'singer': 'City Girls',
+      'name': 'ฝันถึงแฟนเก่า',
+      'singer': 'วง three man down',
       'img':
-          'https://image.bestreview.asia/wp-content/uploads/2021/04/City-Girls-.jpg',
+          'https://cms.dmpcdn.com/musicarticle/2020/12/30/9b90af10-4a7d-11eb-89e4-35f1a97d3869_original.jpg',
       'detail': 'Poppular',
     },
     {
-      'name': 'Fancy',
-      'singer': 'Iggy Azalea',
+      'name': 'ใช่หรือเปล่า',
+      'singer': 'นนท์ ธนนท์ Ft. ซินซิน',
       'img':
-          'https://image.bestreview.asia/wp-content/uploads/2021/04/Iggy-Azalea.jpg',
+          'https://cms.dmpcdn.com/musicarticle/2020/12/30/9b8d0590-4a7d-11eb-89e4-35f1a97d3869_original.jpg',
       'detail': 'Poppular'
     },
   ];
@@ -112,7 +112,7 @@ class _Index3_pageState extends State<Index3_page> {
               child: Row(
                 children: [
                   Text(
-                    'Top HipHop Music',
+                    'Top Pop Thai Music',
                     style: TextStyle(fontSize: 20, color: Colors.black),
                   ),
                 ],

@@ -107,7 +107,7 @@ class _Index_pageState extends State<Index_page> {
               child: Row(
                 children: [
                   Text(
-                    'Thai Music',
+                    'Top Thai Music',
                     style: TextStyle(fontSize: 20, color: Colors.black),
                   ),
                 ],

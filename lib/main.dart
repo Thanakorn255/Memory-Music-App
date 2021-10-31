@@ -20,6 +20,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.pink,
         ),
-        home: Index_page());
+        home: Home_page());
   }
 }
