@@ -92,7 +92,7 @@ class _Index_pageState extends State<Index_page> {
         title: Padding(
           padding: const EdgeInsets.fromLTRB(40, 0, 0, 0),
           child: Text(
-            'My Memmory Music',
+            'My Memory Music',
             style: TextStyle(color: Colors.white),
           ),
         ),
